@@ -1,0 +1,126 @@
+.dashupcardcon {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dashupcard {
+  border: 1px solid #ffffff4d;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.duc1con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.duc1profile {
+  display: flex;
+  border-radius: 20px;
+  padding: 10px;
+  width: 60%;
+  gap: 10px;
+  background-color: #1a1a1a;
+}
+.duc1profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.ducsub {
+  display: flex;
+  flex-direction: column;
+}
+.ducsub h6 {
+  font-size: 14px;
+}
+.ducsub p {
+  font-size: 10px;
+}
+.ducright {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ducright span {
+  width: 9px;
+  height: 9px;
+  background-color: #aedc1a;
+  border-radius: 50%;
+  backdrop-filter: blur(0.20000000298023224px);
+}
+.ducright h6 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.duc2con {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.duc2con h1 {
+  background: -webkit-linear-gradient(
+    360deg,
+    #7e5bd9 0%,
+    #ffffff 51.52%,
+    #7e5bd9 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.duc3con {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+}
+.duc4con {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: flex-end;
+}
+.duc4left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.duc4left h1 {
+  background-color: #20c300;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+.duc4right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.duc4right p {
+  font-size: 10px;
+}
+.duc4right h1 {
+  color: #ffa412;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 38.73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

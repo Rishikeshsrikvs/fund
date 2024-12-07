@@ -1,0 +1,82 @@
+.sidebarcon {
+  width: 20%;
+  background-color: #1a1a1a;
+  height: 70vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 10px 10px;
+}
+.sidelist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidelink {
+}
+.sidelink a {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  color: #adb7f9;
+  align-items: center;
+  border-radius: 4px;
+  gap: 20px;
+}
+.sidelink a:hover,
+.sidelink a:active {
+  color: white;
+  background: linear-gradient(90deg, #8d6de2 0%, #bb9cfd 40.94%, #7d5ad9 100%);
+}
+
+.sideprofilecon {
+  background-color: #adb7f9;
+  display: flex;
+  padding: 5px 10px;
+  color: black;
+  gap: 10px;
+  border-radius: 10px;
+  height: 80px;
+  align-items: center;
+}
+.spimgcon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.sptext {
+  color: white;
+}
+.sptext h1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sptext p {
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 15.4px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
