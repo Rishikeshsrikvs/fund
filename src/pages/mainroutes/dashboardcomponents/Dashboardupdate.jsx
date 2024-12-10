@@ -1,6 +1,11 @@
 import React from "react";
 import "./Dashboardupdate.css";
+import { useNavigate } from "react-router";
 const Dashboardupdate = () => {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/admin/updatedetails"); // Replace '/about' with the desired route
+  };
   return (
     <div className="dashupcardcon">
       <div className="dashupcard">
@@ -41,6 +46,9 @@ const Dashboardupdate = () => {
             <h1>7,00,000</h1>
           </div>
         </div>
+        <button className="duc5float" onClick={handleNavigate}>
+          Update
+        </button>
       </div>
       <div className="dashupcard">
         <div className="duc1con">

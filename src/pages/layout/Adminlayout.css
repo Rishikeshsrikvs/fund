@@ -1,10 +1,11 @@
 .layout-container {
   background-color: #000000;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .navmain {
@@ -17,12 +18,15 @@
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  overflow: hidden;
   z-index: 1000; /* Keep it above other elements */
 }
 
 .layout-main {
   display: flex;
   flex: 1;
+
+  overflow: hidden;
   margin-top: 124px; /* Space for fixed navbar */
 }
 
@@ -41,6 +45,6 @@
 .contentparent {
   margin-left: 20%; /* Leave space for fixed sidebar */
   flex: 1;
-  overflow-y: auto; /* Enable scrolling for content */
+  /* Enable scrolling for content */
   padding: 20px;
 }
